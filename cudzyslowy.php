@@ -8,6 +8,7 @@ $koniec = ' koty';
 ?>
 </head>
 <body>
-    <p> <?php echo '$poczatek $liczba $koniec a chce mieć jeszcze dwa.'; ?>
-    <p> <?php echo "$poczatek $liczba $koniec a chce mieć jeszcze dwa."; ?>
+    <p> <?php echo '$poczatek $liczba $koniec a chce mieć jeszcze dwa.'; ?> </p>
+    <p> <?php echo "$poczatek $liczba $koniec a chce mieć jeszcze dwa."; ?> </p>
 </body>
+</html>
