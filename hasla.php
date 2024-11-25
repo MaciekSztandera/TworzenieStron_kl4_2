@@ -6,6 +6,7 @@
         table, td, th {
             border-collapse: collapse;
             border: 1px solid black;
+            text-align: center;
             padding: 5px;
         }
     </style>
