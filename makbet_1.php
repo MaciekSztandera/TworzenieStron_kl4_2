@@ -5,6 +5,6 @@
 </head>
 <body>
 <p>Cytat: <q><?php echo $string; ?></q></p>
-<p>Libczba znaków: <?php echo strlen($string);?>
+<p>Liczba znaków: <?php echo strlen($string);?>
 </body>
 </html>
