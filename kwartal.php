@@ -20,11 +20,7 @@
 <?php 
 $miesiac = rand(1,15);
 ?>
-<h1>
-    <?php
-    echo $miesiac;
-    ?>
-</h1>
+<h1><?php echo $miesiac; ?></h1>
 <h3>
 <?php switch ($miesiac) {
     case 1:
