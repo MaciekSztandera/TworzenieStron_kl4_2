@@ -1,0 +1,22 @@
+<VirtualHost *> 
+	DocumentRoot "C:\Users\ct21sztanderam\Documents\TworzenieStron_kl4_2"
+        Alias /github "C:\Users\ct21sztanderam\Documents\TworzenieStron_kl4_2"
+    
+	<Directory "C:\Users\ct21sztanderam\Documents\TworzenieStron_kl4_2">
+        Options Indexes FollowSymLinks MultiViews
+        Require all granted
+        AllowOverride None
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>
+
+<?php
+            $rocznik = 2010;
+            for ($i = 1; $i <= 16; $i++) {
+            ?> 
+                <input id="<?php echo $rocznik ?>" type="radio" name="radio">
+                <label for="<?php echo $rocznik ?>"><?php echo $rocznik ?></label><br>
+            <?php
+            $rocznik=$rocznik+1;
+            } 
